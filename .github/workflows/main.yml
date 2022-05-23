@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: python main.yml
+      - run: python main.py
   # This workflow contains a single job called "build"
   build:
     needs: [test]
